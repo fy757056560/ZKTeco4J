@@ -16,3 +16,189 @@
 [ERROR] Please refer to C:\Users\admin\Desktop\ZKTeco4J-main (2)\ZKTeco4J-main\target\surefire-reports for the individual test results.
 [ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
 [ERROR] -> [Help 1]
+
+[INFO] Recompiling the module because of changed source code.
+[WARNING] File encoding has not been set, using platform encoding GBK, i.e. build is platform dependent!
+[INFO] Compiling 1 source file with javac [debug target 11] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR :
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[10,40] 编码 GBK 的不可映射字符 (0x89)
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[11,67] 编码 GBK 的不可映射字符 (0x9B)
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[11,79] 编码 GBK 的不可映射字符 (0x84)
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[38,48] 编码 GBK 的不可映射字符 (0x92)
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[48,75] 编码 GBK 的不可映射字符 (0xA1)
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[62,70] 编码 GBK 的不可映射字符 (0xAA)
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[1,1] 非法字符: '`'
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[1,2] 非法字符: '`'
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[1,3] 非法字符: '`'
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[2,4] 需要class, interface或enum
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[79,4] 非法字符: '`'
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[79,5] 非法字符: '`'
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[79,6] 非法字符: '`'
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[79,7] 进行语法分析时已到达文件结尾
+[INFO] 14 errors
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.651 s
+[INFO] Finished at: 2025-07-22T16:06:45+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.12.1:compile (default-compile) on project ZKTeco4JTest: Compilation failure: Compilation failure:
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[10,40] 编码 GBK 的不可映射字符 (0x89)
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[11,67] 编码 GBK 的不可映射字符 (0x9B)
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[11,79] 编码 GBK 的不可映射字符 (0x84)
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[38,48] 编码 GBK 的不可映射字符 (0x92)
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[48,75] 编码 GBK 的不可映射字符 (0xA1)
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[62,70] 编码 GBK 的不可映射字符 (0xAA)
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[1,1] 非法字符: '`'
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[1,2] 非法字符: '`'
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[1,3] 非法字符: '`'
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[2,4] 需要class, interface或enum
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[79,4] 非法字符: '`'
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[79,5] 非法字符: '`'
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[79,6] 非法字符: '`'
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[79,7] 进行语法分析时已到达文件结尾
+[ERROR] -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+C:\Users\admin\ZKTeco4JTest>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
