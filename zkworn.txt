@@ -221,7 +221,102 @@ C:\Users\admin\ZKTeco4JTest>mvn clean compile -o
 
 
 
+ C:\Users\admin\Desktop\ZKTeco4J-main (2)\ZKTeco4J-main>mvn clean install
+[INFO] Scanning for projects...
+[INFO]
+[INFO] -----------------------< ps.purelogic:ZKTeco4J >------------------------
+[INFO] Building ZKTeco4J 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- clean:3.2.0:clean (default-clean) @ ZKTeco4J ---
+[INFO] Deleting C:\Users\admin\Desktop\ZKTeco4J-main (2)\ZKTeco4J-main\target
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ ZKTeco4J ---
+[INFO] skip non existing resourceDirectory C:\Users\admin\Desktop\ZKTeco4J-main (2)\ZKTeco4J-main\src\main\resources
+[INFO]
+[INFO] --- compiler:3.13.0:compile (default-compile) @ ZKTeco4J ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 10 source files with javac [debug target 1.8] to target\classes
+[WARNING] 未与 -source 8 一起设置引导类路径
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ ZKTeco4J ---
+[INFO] skip non existing resourceDirectory C:\Users\admin\Desktop\ZKTeco4J-main (2)\ZKTeco4J-main\src\test\resources
+[INFO]
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ ZKTeco4J ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug target 1.8] to target\test-classes
+[WARNING] 未与 -source 8 一起设置引导类路径
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ ZKTeco4J ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ps.purelogic.zkteco4j.tests.ChecksumUtilsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 s -- in ps.purelogic.zkteco4j.tests.ChecksumUtilsTest
+[INFO] Running ps.purelogic.zkteco4j.tests.ZKCommandTest
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! -- in ps.purelogic.zkteco4j.tests.ZKCommandTest
+[ERROR] ps.purelogic.zkteco4j.tests.ZKCommandTest.zkCommandTest -- Time elapsed: 0 s <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[5050827D0C000000]0B0058EFC5C005007E4F...> but was:<[]0B0058EFC5C005007E4F...>
+        at junit.framework.Assert.assertEquals(Assert.java:100)
+        at junit.framework.Assert.assertEquals(Assert.java:107)
+        at junit.framework.TestCase.assertEquals(TestCase.java:269)
+        at ps.purelogic.zkteco4j.tests.ZKCommandTest.zkCommandTest(ZKCommandTest.java:29)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+        at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+        at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+        at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+        at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+        at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+        at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+        at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+        at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+        at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+        at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+        at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+        at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+        at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+        at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+        at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+        at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+        at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
+[INFO]
+[INFO] Results:
+[INFO]
+[ERROR] Failures:
+[ERROR]   ZKCommandTest.zkCommandTest:29 expected:<[5050827D0C000000]0B0058EFC5C005007E4F...> but was:<[]0B0058EFC5C005007E4F...>
+[INFO]
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.765 s
+[INFO] Finished at: 2025-07-22T17:03:11+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test (default-test) on project ZKTeco4J: There are test failures.
+[ERROR]
+[ERROR] Please refer to C:\Users\admin\Desktop\ZKTeco4J-main (2)\ZKTeco4J-main\target\surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+C:\Users\admin\Desktop\ZKTeco4J-main (2)\ZKTeco4J-main>
 
 
 
