@@ -90,6 +90,63 @@ C:\Users\admin\ZKTeco4JTest>mvn clean compile
 [ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/ModelParseException
 
 
+C:\Users\admin\ZKTeco4JTest>mvn clean compile -o
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for com.zkteco:ZKTeco4JTest:jar:1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.systemPath' for com.zkteco:zkteco4j:jar should use a variable instead of a hard-coded path C:\Users\admin\ZKTeco4JTest\ZKTeco4J-1.0-SNAPSHOT.jar @ line 14, column 25
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ----------------------< com.zkteco:ZKTeco4JTest >-----------------------
+[INFO] Building ZKTeco4JTest 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- clean:3.2.0:clean (default-clean) @ ZKTeco4JTest ---
+[INFO] Deleting C:\Users\admin\ZKTeco4JTest\target
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ ZKTeco4JTest ---
+[WARNING] Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\admin\ZKTeco4JTest\src\main\resources
+[INFO]
+[INFO] --- compiler:3.12.1:compile (default-compile) @ ZKTeco4JTest ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug target 11] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR :
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[1,1] 非法字符: '\ufeff'
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[2,12] 需要class, interface或enum
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[79,4] 非法字符: '`'
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[79,5] 非法字符: '`'
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[79,6] 非法字符: '`'
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[79,7] 进行语法分析时已到达文件结尾
+[INFO] 6 errors
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.526 s
+[INFO] Finished at: 2025-07-22T16:40:09+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.12.1:compile (default-compile) on project ZKTeco4JTest: Compilation failure: Compilation failure:
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[1,1] 非法字符: '\ufeff'
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[2,12] 需要class, interface或enum
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[79,4] 非法字符: '`'
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[79,5] 非法字符: '`'
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[79,6] 非法字符: '`'
+[ERROR] /C:/Users/admin/ZKTeco4JTest/src/main/java/com/zkteco/TestZKTECO.java:[79,7] 进行语法分析时已到达文件结尾
+[ERROR] -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
 
 
 
