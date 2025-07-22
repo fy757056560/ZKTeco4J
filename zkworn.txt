@@ -1,0 +1,18 @@
+ Results:
+[INFO]
+[ERROR] Failures:
+[ERROR]   ZKCommandTest.zkCommandTest:29 expected:<[5050827D0C000000]0B0058EFC5C005007E4F...> but was:<[]0B0058EFC5C005007E4F...>
+[INFO]
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  28.172 s
+[INFO] Finished at: 2025-07-22T14:57:53+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test (default-test) on project ZKTeco4J: There are test failures.
+[ERROR]
+[ERROR] Please refer to C:\Users\admin\Desktop\ZKTeco4J-main (2)\ZKTeco4J-main\target\surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
